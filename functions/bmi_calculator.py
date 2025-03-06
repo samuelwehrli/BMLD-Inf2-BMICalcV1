@@ -26,7 +26,7 @@ def calculate_bmi(height, weight, timezone='Europe/Zurich'):
         category = 'Adipositas'
 
     return {
-        "timestamp": helpers.ch_now(),
+        "timestamp": helpers.ch_now(),  # Current swiss time
         "height": height,
         "weight": weight,
         "bmi": round(bmi, 1),
