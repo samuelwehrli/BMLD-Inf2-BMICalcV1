@@ -1,15 +1,12 @@
 import streamlit as st
 
-st.title("Meine erste Streamlit App")
-
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
 
-"""
-Diese App wurde von folgenden Personen entwickelt:
-- Anna Müller (anmu@zhaw.ch)
-- Peter Meier (peme@zhaw.ch)
+st.title('BMI Rechner')
 
-Diese App ist das leere Gerüst für die App-Entwicklung im Modul Informatik 2 (BMLD/ZHAW)
+st.markdown(Die Anwendung ermöglicht es Ihnen, Ihren BMI zu berechnen")
 
-Autor: Samuel Wehrli (wehs@zhaw.ch)
-"""
+st.info("""Der BMI ist ein Screening-Tool, aber keine Diagnose für Körperfett oder Gesundheit.
+Bitte konsultieren Sie einen Arzt für eine vollständige Beurteilung.""")
+
+st.write("Diese App wurde von Samuel Wehrli (wehs@zhaw.ch) im Rahmen des Moduls 'BMLD Informatik 2' an der ZHAW entwickelt.")
