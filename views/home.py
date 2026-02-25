@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title('BMI Rechner')
 
-st.markdown(Die Anwendung ermöglicht es Ihnen, Ihren BMI zu berechnen")
+st.markdown("Die Anwendung ermöglicht es Ihnen, Ihren BMI zu berechnen")
 
 st.info("""Der BMI ist ein Screening-Tool, aber keine Diagnose für Körperfett oder Gesundheit.
 Bitte konsultieren Sie einen Arzt für eine vollständige Beurteilung.""")
